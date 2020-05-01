@@ -5,20 +5,29 @@ img.center {
   width: 80%;
 }
 
+blockquote.twitter-tweet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
 body{
-  margin-left:30%;
-  margin-right:30%;
+  font-family: "Helvetica";
+  max-width: 650px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 17px;
 }
 
 p {
-  font-family: "Courier New";
-  font-size: 20px;
+  font-family: "Helvetica";
+  font-size: 17px;
 }
 
 h1 {
   font-family: "Courier New";
-}
-
-a {
-  target= "_blank";
 }
