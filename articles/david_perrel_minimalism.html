@@ -1,0 +1,16 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+
+
+
+<h1 id="minimalism-hides-complexity">Minimalism hides complexity</h1>
+<p>I just finished reading the <a href="https://exercism.io/my/solutions/ce5a67ad792b4cb79ba3056006ba6028">last essay</a> of #DavidPerrel in which he criticises minimalism and the different forms it has taken now. Overall his article was not great IMO - he was superficial and failed to explain why Apple was the real thing and Blue Bottle was a copycat.</p>
+<p>In any case, what I do think is an interesting subject is the fact that minimalism tends to hide complexity. Yet hiding complexity doesn’t make it go away. For example, I have a small alias which serves as a little script which saves me some time:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="bu">alias</span> nn=<span class="st">&#39;read -p &quot;name of your note: &quot; note_name &amp;&amp; date_name=$(date +%F) &amp;&amp; tot_name=&quot;${date_name}_${note_name}.md&quot; &amp;&amp; nvim ~/dox/vitz/notes/$tot_name&#39;</span></a></code></pre></div>
+<p>Behind the command “nn” which seems <em>minimalist</em> there is complexity. What I think is more interesting than criticising minimalism is realizing that the simplicity of my little command often makes things more complex. If my command doesn’t work for some reason, I will have to backtrack through various levels of abstraction to understand where the issue is.</p>
+<p>We feel the pain of this hidden complexity when our <em>simple</em> online services don’t work - we are left with no recurse but restarting the machine and hoping for the best.</p>
+<p>Next time you are using a seemingly <em>simple</em> or <em>minimalist</em> piece of technology; realize that you are in the mercy of all the complexity that simplicity is hiding.</p>
+<p><em>Think of the hammer, now that is a minimalist piece of technology :)</em></p>
